@@ -1,7 +1,7 @@
 # Images-Classification---Fashion-Mnist-Dataset
-This project examines the performance of a variety of machine learning methods on the fashion mnist dataset.
+This project examines the efficiency of a variety of machine learning methods on the fashion mnist dataset.
 Image classification is performed using k nearest neighbors , support vector machines , neural networks with two hidden layers and bayes methods.
-Of course the performance varies from method to method and depends on the parameters given by the user as input.
+Of course the efficiency varies from method to method and depends on the parameters given by the user as input.
 
 The first class of the program is responsible for preprocessing the images in the dataset. 
 The function def normalization , normalizes the pixel values of each image , as it converts them from the range 0-255 , to the range 0-1(float). 
@@ -9,7 +9,7 @@ The next function in the class , dimensions_reduce , reduces the dimensions of t
 (For example, if the user gives 70 as input , then after processing , 70% of the size of the original images remains). 
 These procedures lead to the reduction of the data volume , resulting in the program making faster predictions.
 
-In the next class all the work for categorization is performed.
+In the next class all the work for classification is performed.
 In fact with the help of the scikit learn library , each function is built in a similar way. 
 Training is done with the train data and then the predictions are made on the test data. 
 The visualization function is responsible for visualizing the images and displaying the metrics of each method. 
